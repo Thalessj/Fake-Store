@@ -92,7 +92,9 @@ export default function HomePage() {
               className="bg-white shadow-lg rounded-lg overflow-hidden group h-180 flex flex-col"
               whileHover={{ scale: 1.05 }}
             >
-              <img
+              <Image
+                width={250}
+                height={250}
                 src={product.image}
                 alt={product.title}
                 className="w-full h-52 object-cover"
@@ -133,7 +135,9 @@ export default function HomePage() {
               className="bg-white shadow-lg rounded-lg overflow-hidden group h-180 flex flex-col"
               whileHover={{ scale: 1.05 }}
             >
-              <img
+              <Image
+                width={250}
+                height={250}
                 src={product.image}
                 alt={product.title}
                 className="w-full h-52 object-cover"

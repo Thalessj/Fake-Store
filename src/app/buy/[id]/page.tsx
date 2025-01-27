@@ -36,7 +36,7 @@ export default function ProductPage() {
         const filteredProducts = data.filter(
           (item: Product) => item.id.toString() !== id
         );
-        setOtherProducts(filteredProducts.slice(0, 4)); // Show only 4 products
+        setOtherProducts(filteredProducts.slice(0, 4));
       })
       .catch((error) =>
         console.error("Erro ao buscar outros produtos:", error)
